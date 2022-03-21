@@ -1,0 +1,49 @@
+.containerRest {
+    display: flex;
+    justify-content: space-between;
+    height: 92%;
+}
+
+.restLeft {
+    background-color: #7cc0b1;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.restLeft p {
+    color: #ffffff;
+}
+
+.p1 {
+    font-size: 4vw;
+    margin-top: 3rem;
+}
+
+.p2 {
+    font-size: 3vw;
+    text-decoration: underline;
+    text-decoration-color: #497775;
+}
+
+.p3 {
+    font-size: 6vw;
+}
+
+.restButton {
+    width: 8vw;
+}
+
+.restRight {
+    width: 50%;
+    background-color: #ffffff;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futureImg {
+    width: 35vw;
+}

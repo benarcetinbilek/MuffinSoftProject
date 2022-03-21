@@ -1,0 +1,65 @@
+.containerCreateTimeTable {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #497775;
+    padding: 1rem;
+}
+
+.timetableContent {
+    width: 80vw;
+    height: 35vw;
+    background-color: #fff;
+    border-radius: 2px;
+    border: rgb(160, 159, 159) 1px solid;
+    box-shadow: 0 0 15px rgb(58, 52, 52);   
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    word-break: break-all;
+}
+th{
+    font-size: 1vw;
+    border: rgb(70, 61, 61) solid .1px;
+    width: 12.5%;
+    height: 10%;
+}
+
+td {
+    font-size: 1vw;
+    cursor: pointer;
+    border: rgb(70, 61, 61) solid .1px;
+    width: 12.5%;
+    height: 10%;
+    overflow: hidden;
+    padding: .1rem;
+}
+
+
+.containerDescription {
+    width: 20vw;
+    height: 35vw;
+    background-color: #fff;
+    border-radius: 2px;
+    border: rgb(160, 159, 159) 1px solid;
+    box-shadow: 0 0 15px rgb(58, 52, 52); 
+    margin-left: 1rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+.data {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    top: 1vh;
+}

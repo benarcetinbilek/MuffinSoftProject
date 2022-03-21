@@ -1,0 +1,25 @@
+.containerNavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: #497775;
+    height: 8%;
+}
+
+button {
+    border-radius: 20px;
+    padding: .3rem;
+    margin-right: .6rem;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}  
+
+button span {
+    color: #497775;
+}
+
+.left p {
+    color: white;
+}
