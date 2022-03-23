@@ -9,11 +9,10 @@ import FirstPage from "./components/firstPage.js"
 import { useState } from 'react';
 
 function App() {
-
-
   return (
     <div className="App">
-      <CreateTimeTable />
+      <FirstPage />
+      <Login />
     </div>
   );
 }
